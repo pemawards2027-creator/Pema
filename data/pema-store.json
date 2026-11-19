@@ -1,0 +1,306 @@
+{
+  "users": [
+    {
+      "id": "usr-demo-1",
+      "fullName": "Dr. Elena Villanueva",
+      "email": "elena.villanueva@example.ph",
+      "phoneNumber": "0917-555-0148",
+      "passwordHash": "105cfd87313553fc3f2205aef42d220f:25ccd68c5174ade85a3c567a87b46c398b04d1d82df07946a589ccaefafffa34c5a3e3f964314f26778fa7aa3ab16dbd4eb054a4f1f272a8fc224f75f5e0eb84",
+      "createdAt": "2026-11-05T09:30:00.000Z"
+    }
+  ],
+  "passkeys": [],
+  "sessions": [],
+  "nominations": [
+    {
+      "id": "nom-seed-1",
+      "referenceCode": "PEMA-2027-0001",
+      "userId": "usr-demo-1",
+      "completeName": "Dr. Elena M. Villanueva",
+      "phoneNumber": "0917-555-0148",
+      "emailAddress": "elena.villanueva@example.ph",
+      "currentAge": 44,
+      "completeAddress": "214 Salcedo Street, Legazpi Village, Makati City, Metro Manila",
+      "currentWorkProfession": "Public Health Director & Rural Clinic Founder",
+      "cvWillFollow": false,
+      "cvFile": null,
+      "majorProjects": "Founded the Lingap Bayan Mobile Health Network serving 32 coastal barangays in Luzon with maternal care and preventive diagnostics.",
+      "supportingDocs": [],
+      "status": "Approved",
+      "committeeNotes": "Credentials verified and approved by the PEMA Health & Civic Impact Panel.",
+      "createdAt": "2026-11-06T11:15:00.000Z",
+      "updatedAt": "2026-11-12T14:20:00.000Z"
+    },
+    {
+      "id": "nom-seed-2",
+      "referenceCode": "PEMA-2027-0002",
+      "userId": null,
+      "completeName": "Engr. Marco Antonio Reyes",
+      "phoneNumber": "0928-441-8890",
+      "emailAddress": "marco.reyes@example.ph",
+      "currentAge": 38,
+      "completeAddress": "88 Gorordo Avenue, Lahug, Cebu City, Cebu 6000",
+      "currentWorkProfession": "Renewable Microgrid Systems Engineer",
+      "cvWillFollow": true,
+      "cvFile": null,
+      "majorProjects": "Solar microgrid deployment for 14 off-grid island schools across the Visayas.",
+      "supportingDocs": [],
+      "status": "Pending",
+      "committeeNotes": "Awaiting committee review; CV/PDS to follow once qualified.",
+      "createdAt": "2026-11-14T08:45:00.000Z",
+      "updatedAt": "2026-11-15T16:00:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-seed-1",
+      "receiptReference": "OR-2027-0001",
+      "nominationId": "nom-seed-1",
+      "userId": "usr-demo-1",
+      "payerName": "Dr. Elena M. Villanueva",
+      "payerEmail": "elena.villanueva@example.ph",
+      "payerPhone": "0917-555-0148",
+      "description": "Awardee Recognition Reservation (Provisional Assessment)",
+      "amountDue": 15000,
+      "amountPaid": 15000,
+      "currency": "PHP",
+      "paymentMethod": "Bank Transfer (BPI)",
+      "paymentDate": "2026-11-12",
+      "status": "Paid / Verified",
+      "userProofFile": null,
+      "officialReceiptFile": null,
+      "adminRemarks": "Provisional gala reservation settled; official committee receipt issued.",
+      "createdAt": "2026-11-10T09:00:00.000Z",
+      "updatedAt": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "id": "pay-seed-2",
+      "receiptReference": "OR-2027-0002",
+      "nominationId": "nom-seed-2",
+      "userId": null,
+      "payerName": "Engr. Marco Antonio Reyes",
+      "payerEmail": "marco.reyes@example.ph",
+      "payerPhone": "0928-441-8890",
+      "description": "Evaluation & Processing Assessment (Subject to Confirmation)",
+      "amountDue": 0,
+      "amountPaid": 0,
+      "currency": "PHP",
+      "paymentMethod": "To be confirmed",
+      "paymentDate": "",
+      "status": "Pending Confirmation",
+      "userProofFile": null,
+      "officialReceiptFile": null,
+      "adminRemarks": "Awaiting committee fee confirmation after evaluation stage.",
+      "createdAt": "2026-11-14T08:45:00.000Z",
+      "updatedAt": "2026-11-19T13:00:34.490Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-seed-1",
+      "name": "Atty. Rafael Mendoza",
+      "email": "rmendoza@example.ph",
+      "phone": "0919-330-2104",
+      "subject": "Corporate Delegation Nomination Inquiry",
+      "message": "We would like to nominate two community leaders from Davao City for the 2027 cycle.",
+      "createdAt": "2026-11-15T10:15:00.000Z",
+      "status": "New"
+    }
+  ],
+  "emailNotifications": [],
+  "settings": {
+    "contactNumber": "0924-173-7587",
+    "contactEmail": "pem.awards2027@gmail.com",
+    "officeLocation": "Metro Manila, Philippines (Secretariat venue to be confirmed)",
+    "ceremonySchedule": "2027 Awards Season (Exact Gala Date & Venue to be confirmed)",
+    "customLogoUrl": null,
+    "organizationNote": "Program fees, official gala venue, and final awarding schedules are subject to formal confirmation by the PEMA Organizing Committee.",
+    "pricingTiers": [
+      {
+        "id": "tier-nomination",
+        "name": "Nomination Screening & Evaluation",
+        "audience": "For individual & organizational nominees",
+        "priceLabel": "Fee to be confirmed",
+        "amountPhp": null,
+        "statusNote": "Subject to confirmation by the PEMA Organizing Committee",
+        "inclusions": [
+          "Official PEMA dossier review by the evaluation panel",
+          "Verification of credentials, CV/PDS, and advocacy impact",
+          "Formal qualification notice upon committee deliberation"
+        ]
+      },
+      {
+        "id": "tier-awardee",
+        "name": "Awardee Recognition & Gala Package",
+        "audience": "For qualified & confirmed PEMA honorees",
+        "priceLabel": "Rate to be confirmed",
+        "amountPhp": null,
+        "statusNote": "Published upon committee approval · Inclusions confirmed prior to billing",
+        "inclusions": [
+          "Sculpted PEMA Excellence Trophy & Official Medal of Merit",
+          "Framed Certificate of Distinction bearing the PEMA Seal",
+          "Gala dinner seating, red-carpet photography & editorial citation"
+        ]
+      },
+      {
+        "id": "tier-institutional",
+        "name": "Institutional & Corporate Delegation",
+        "audience": "For organizations & multi-honoree tables",
+        "priceLabel": "Custom · To be confirmed",
+        "amountPhp": null,
+        "statusNote": "Tailored table & sponsorship allocations available upon inquiry",
+        "inclusions": [
+          "Reserved VIP table placement at the PEMA Awards Gala",
+          "Organization profile highlight in the commemorative folio",
+          "Dedicated secretariat coordination for delegation guests"
+        ]
+      }
+    ],
+    "headlineTemplate": {
+      "kicker": "Official PEMA Bulletin",
+      "headline": "2027 Philippine Excellency & Merit Awards Nominations Now Open",
+      "subheadline": "Submit individual or institutional dossiers for independent committee evaluation across business, public service, culture, and community impact.",
+      "ctaLabel": "Submit Nomination",
+      "ctaPath": "/nominate",
+      "updatedAt": "2026-11-18T00:00:00.000Z"
+    },
+    "highlightOfTheMonth": {
+      "monthLabel": "November 2026 Highlight",
+      "title": "Grassroots Healthcare & Rural Innovation Spotlight",
+      "honoreeName": "Dr. Elena M. Villanueva · Lingap Bayan Network",
+      "category": "Civic Health & Community Impact",
+      "summary": "Recognized for establishing mobile maternal diagnostics across 32 coastal barangays in Luzon, expanding preventive healthcare access to underserved families.",
+      "impactNote": "Over 14,500 community consultations delivered through volunteer medical missions.",
+      "ctaLabel": "Explore Nominee Stories",
+      "ctaPath": "/about",
+      "updatedAt": "2026-11-18T00:00:00.000Z"
+    },
+    "certificateTemplate": {
+      "templateName": "Official PEMA Award Certificate Template",
+      "uploadedImageUrl": null,
+      "preserveDesignAsIs": true,
+      "showEditableOverlay": true,
+      "defaultAwardeeName": "Dr. Elena M. Villanueva",
+      "defaultAwardTitle": "Outstanding Public Health Advocacy Award",
+      "defaultProfession": "Public Health Director & Rural Clinic Founder",
+      "defaultCitationLine": "In recognition of exemplary excellence, integrity, and measurable service to the Filipino community.",
+      "defaultDateLabel": "Awarded in the 2027 PEMA Ceremonial Cycle",
+      "defaultSignatoryLine": "Philippine Excellency & Merit Awards Screening Committee",
+      "updatedAt": "2026-11-18T00:00:00.000Z"
+    }
+  },
+  "awardees": [
+    {
+      "id": "awd-seed-1",
+      "awardeeName": "Dr. Elena M. Villanueva",
+      "awardTitle": "Philippine Excellence in Community Public Health",
+      "profession": "Public Health Director & Rural Clinic Founder",
+      "era": "New Awardee",
+      "yearLabel": "2026–2027 Honoree",
+      "photoFile": null,
+      "photoUrl": "/src/assets/images/gallery_ceremony_stage_1795064556740.jpg",
+      "createdAt": "2026-11-12T10:00:00.000Z",
+      "updatedAt": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "awd-seed-2",
+      "awardeeName": "Engr. Roberto S. Bautista",
+      "awardTitle": "Lifetime Achievement in Sustainable Infrastructure",
+      "profession": "Principal Civil & Renewable Systems Engineer",
+      "era": "Past Awardee",
+      "yearLabel": "Past Honoree Batch",
+      "photoFile": null,
+      "photoUrl": "/src/assets/images/gallery_trophy_clean_1795064576318.jpg",
+      "createdAt": "2025-10-20T09:00:00.000Z",
+      "updatedAt": "2025-10-20T09:00:00.000Z"
+    }
+  ],
+  "legitimacyCredentials": [],
+  "projectFunding": [
+    {
+      "id": "fund-seed-1",
+      "programCode": "FUND-2027-0001",
+      "title": "2027 PEMA Awards Gala Production & Venue Fund",
+      "sourceOrSponsor": "PEMA Founding Patronage Allocation",
+      "fundingType": "Production Allocation",
+      "targetAmountPhp": 650000,
+      "committedAmountPhp": 450000,
+      "disbursedAmountPhp": 150000,
+      "financeClearanceStatus": "Finance Verified",
+      "status": "Partially Disbursed",
+      "notes": "Covers stage design, live streaming broadcast, and security logistics (venue to be finalized).",
+      "updatedBy": "PEMA Project Funding Dept",
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-14T11:30:00.000Z"
+    },
+    {
+      "id": "fund-seed-2",
+      "programCode": "FUND-2027-0002",
+      "title": "Honoree Trophies, Medallions & Commemorative Folio Fund",
+      "sourceOrSponsor": "Bayanihan Institutional Sponsorship Pool",
+      "fundingType": "Ceremony Sponsorship",
+      "targetAmountPhp": 280000,
+      "committedAmountPhp": 200000,
+      "disbursedAmountPhp": 0,
+      "financeClearanceStatus": "Pending Finance Review",
+      "status": "Active Pledge",
+      "notes": "Awaiting Finance Department clearance prior to trophy foundry downpayment.",
+      "updatedBy": "PEMA Project Funding Dept",
+      "createdAt": "2026-11-11T14:00:00.000Z",
+      "updatedAt": "2026-11-16T10:15:00.000Z"
+    }
+  ],
+  "nominationEvaluations": [
+    {
+      "id": "eval-seed-1",
+      "nominationId": "nom-seed-1",
+      "evaluatorSlot": "evaluator_1",
+      "evaluatorLabel": "Evaluator 1",
+      "evaluatorName": "Board Evaluator 1",
+      "criteriaScores": {
+        "achievements": 23,
+        "communityImpact": 24,
+        "leadership": 19,
+        "integrity": 15,
+        "innovation": 9,
+        "supportingDocs": 5
+      },
+      "totalScore": 95,
+      "recommendation": "Recommend Approval",
+      "remarks": "Verified 32 coastal barangay clinics with measurable patient outreach records.",
+      "updatedAt": "2026-11-11T16:10:00.000Z"
+    },
+    {
+      "id": "eval-seed-2",
+      "nominationId": "nom-seed-1",
+      "evaluatorSlot": "evaluator_2",
+      "evaluatorLabel": "Evaluator 2",
+      "evaluatorName": "Board Evaluator 2",
+      "criteriaScores": {
+        "achievements": 22,
+        "communityImpact": 24,
+        "leadership": 18,
+        "integrity": 14,
+        "innovation": 9,
+        "supportingDocs": 5
+      },
+      "totalScore": 92,
+      "recommendation": "Recommend Approval",
+      "remarks": "Strong community leadership and consistent ethical standing.",
+      "updatedAt": "2026-11-11T18:00:00.000Z"
+    }
+  ],
+  "departmentPasscodes": {
+    "funding": "PEMA-FUND-2027",
+    "finance": "PEMA-FIN-2027",
+    "committee": "PEMA-BOARD-2027",
+    "evaluator_1": "PEMA-EVAL1-2027",
+    "evaluator_2": "PEMA-EVAL2-2027",
+    "evaluator_3": "PEMA-EVAL3-2027",
+    "evaluator_4": "PEMA-EVAL4-2027"
+  },
+  "chatThreads": [],
+  "supportAvailable": false,
+  "adminRevisions": [],
+  "lastSequence": 2
+}

@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-pema-navy: #08184B;
+  --color-pema-navy-deep: #051034;
+  --color-pema-gold: #D9A726;
+  --color-pema-gold-bright: #EAB308;
+  --color-pema-crimson: #A81C1C;
+  --color-pema-ivory: #FAF8F4;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  button, a, input, select, textarea {
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: 10mm;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #08184b !important;
+    print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-avoid-break {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .print-flat-card {
+    box-shadow: none !important;
+    border-color: #cbd5e1 !important;
+    border-radius: 6px !important;
+  }
+
+  .print-certificate-sheet {
+    box-shadow: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .print-form-sheet {
+    padding: 0 !important;
+    background: #ffffff !important;
+  }
+
+  input,
+  textarea,
+  select {
+    box-shadow: none !important;
+    background: #ffffff !important;
+    border-color: #94a3b8 !important;
+    overflow: visible !important;
+  }
+
+  textarea {
+    resize: none !important;
+  }
+}
+

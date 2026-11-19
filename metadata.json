@@ -1,0 +1,6 @@
+{
+  "name": "Philippine Excellency and Merit Awards (PEMA)",
+  "description": "Official web application for Philippine Excellency and Merit Awards (PEMA) featuring live content sync, user accounts, official nominations, and a secured administrator dashboard for payment monitoring and receipt uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
